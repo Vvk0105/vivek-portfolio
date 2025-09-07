@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../components/Footer';
 const projects = [
   { title: "Lumiya", desc: "Event Planning and Production company", link: "https://lumiya.netlify.app/" },
   { title: "E2 Solutions", desc: "Innovating Space and Service with Global Insight", link: "https://celebrated-bienenstitch-9edf19.netlify.app/" },
@@ -9,8 +10,9 @@ const projects = [
 
 function Projects() {
   return (
+    <div className='flex flex-col min-h-screen'>
     <section className="p-10">
-      <h2 className="text-3xl font-bold mb-6">Projects</h2>
+      <h2 className="text-3xl font-bold mb-6 text-center">Projects</h2>
       <div className="grid gap-6 md:grid-cols-3">
         {projects.map((p, i) => (
           <div key={i} className="p-6 border rounded-lg shadow hover:shadow-lg transition">
@@ -21,6 +23,8 @@ function Projects() {
         ))}
       </div>
     </section>
+    <Footer/>
+    </div>
   )
 }
 

@@ -1,9 +1,10 @@
 import React from 'react'
+import Footer from '../components/Footer'
 
 function Resume() {
   return (
-    <div>
-        <section className="p-10 text-center">
+    <div className='flex flex-col min-h-screen'>
+        <section className="p-10 text-center flex flex-col justify-center items-center h-[60vh]">
             <h2 className="text-3xl font-bold mb-6">Resume</h2>
             <p className="text-gray-600 mb-4">
                 Download my resume to learn more about my skills & experience.
@@ -16,6 +17,7 @@ function Resume() {
                 Download Resume
             </a>
         </section>
+        <Footer/>
     </div>
   )
 }
