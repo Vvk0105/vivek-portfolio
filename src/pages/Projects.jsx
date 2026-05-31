@@ -58,6 +58,7 @@ export default function Projects() {
     {
       title: "Hourly Stay Hotel Booking Platform",
       desc: "Developed a granular hotel reservation solution supporting hourly/daily custom booking intervals, reservation tracking pipelines, and integrated merchant processing.",
+      link: "https://hourlystay.com/",
       highlights: [
         "Created flexible check-in/check-out logical loops supporting hourly reservations.",
         "Integrated Razorpay gateway solutions for secure online bookings.",
