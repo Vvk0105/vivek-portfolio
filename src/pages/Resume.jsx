@@ -10,7 +10,7 @@ function Resume() {
                 Download my resume to learn more about my skills & experience.
             </p>
             <a 
-                href="../../public/vivek_resume.pdf" 
+                href="/vivek_resume_2026.pdf" 
                 download 
                 className="bg-teal-500 text-white px-6 py-2 rounded-lg shadow hover:bg-teal-600 transition"
             >
